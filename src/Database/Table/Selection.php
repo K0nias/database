@@ -988,6 +988,7 @@ class Selection implements \Iterator, IRowContainer, \ArrayAccess, \Countable
 
 
 	/** @return ActiveRow|false */
+	#[\ReturnTypeWillChange]
 	public function current()
 	{
 		return ($key = current($this->keys)) !== false
@@ -999,6 +1000,7 @@ class Selection implements \Iterator, IRowContainer, \ArrayAccess, \Countable
 	/**
 	 * @return string|int row ID
 	 */
+	#[\ReturnTypeWillChange]
 	public function key()
 	{
 		return current($this->keys);

@@ -33,7 +33,11 @@ The recommended way to install is via Composer:
 composer require nette/database
 ```
 
+<<<<<<< HEAD
 It requires PHP version 7.1 and supports PHP up to 8.0.
+=======
+It requires PHP version 7.2 and supports PHP up to 8.1.
+>>>>>>> 437a4b4 (support for PHP 8.1)
 
 
 Usage
